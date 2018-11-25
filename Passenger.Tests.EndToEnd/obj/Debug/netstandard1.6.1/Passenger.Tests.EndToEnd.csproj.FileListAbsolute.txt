@@ -1,0 +1,13 @@
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.deps.json
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Core.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Core.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.AssemblyInfoInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.AssemblyInfo.cs
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.csproj.CopyComplete
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.pdb

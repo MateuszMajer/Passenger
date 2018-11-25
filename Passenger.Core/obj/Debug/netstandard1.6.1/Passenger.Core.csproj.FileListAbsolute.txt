@@ -1,0 +1,9 @@
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\bin\Debug\netstandard1.6.1\Passenger.Core.deps.json
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\bin\Debug\netstandard1.6.1\Passenger.Core.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\bin\Debug\netstandard1.6.1\Passenger.Core.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\obj\Debug\netstandard1.6.1\Passenger.Core.csprojAssemblyReference.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\obj\Debug\netstandard1.6.1\Passenger.Core.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\obj\Debug\netstandard1.6.1\Passenger.Core.AssemblyInfoInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\obj\Debug\netstandard1.6.1\Passenger.Core.AssemblyInfo.cs
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\obj\Debug\netstandard1.6.1\Passenger.Core.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Core\obj\Debug\netstandard1.6.1\Passenger.Core.pdb

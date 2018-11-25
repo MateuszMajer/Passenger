@@ -1,0 +1,16 @@
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Api.deps.json
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Api.runtimeconfig.json
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Api.runtimeconfig.dev.json
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Api.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Api.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Core.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Infrastructure.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Infrastructure.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\Passenger.Core.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.csprojAssemblyReference.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.AssemblyInfoInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.AssemblyInfo.cs
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.csproj.CopyComplete
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.pdb

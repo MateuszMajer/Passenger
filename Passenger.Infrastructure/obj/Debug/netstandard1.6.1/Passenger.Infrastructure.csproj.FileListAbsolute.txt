@@ -1,0 +1,12 @@
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.deps.json
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6.1\Passenger.Core.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\bin\Debug\netstandard1.6.1\Passenger.Core.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.csprojAssemblyReference.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.AssemblyInfo.cs
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.csproj.CopyComplete
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.dll
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netstandard1.6.1\Passenger.Infrastructure.pdb

@@ -4,4 +4,14 @@
     <TargetFramework>netstandard1.6.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+     <ProjectReference Include="..\Passenger.Core\Passenger.Core.csproj"/>
+     <ProjectReference Include="..\Passenger.Infrastructure\Passenger.Infrastructure.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+  </ItemGroup>
 </Project>
