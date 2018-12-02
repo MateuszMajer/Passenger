@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Passenger.Core.Domain
 {
-    public class Driver //Agregate - korzeń łączący valueobject np. Node
+    public class Driver //Agregate - korzeń łączący valueobject np.Node
     {
         public Guid Id { get; protected set; }
         public Guid UserId { get; protected set; }
