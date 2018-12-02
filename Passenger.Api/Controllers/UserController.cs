@@ -25,7 +25,7 @@ namespace Passenger.Api.Controllers
             return _iuserservice.Get(email);
         }
 
-        [HttpPost("")]
+        [HttpPost]
         public void Post([FromBody]CreateUser request)
         {
             _iuserservice.Register(request.Email, request.UserName, request.Password);
