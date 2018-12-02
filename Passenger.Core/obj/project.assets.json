@@ -4328,23 +4328,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mmajer\\.nuget\\packages\\": {},
+    "C:\\Users\\SysAdmin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
+      "projectUniqueName": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
       "projectName": "Passenger.Core",
-      "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
-      "packagesPath": "C:\\Users\\mmajer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\obj\\",
+      "projectPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
+      "packagesPath": "C:\\Users\\SysAdmin\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mmajer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SysAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

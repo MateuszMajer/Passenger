@@ -4347,23 +4347,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mmajer\\.nuget\\packages\\": {},
+    "C:\\Users\\SysAdmin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
       "projectName": "Passenger.Infrastructure",
-      "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\mmajer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\SysAdmin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mmajer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SysAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4376,8 +4376,8 @@
       "frameworks": {
         "netstandard1.6.1": {
           "projectReferences": {
-            "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
-              "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
+            "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
+              "projectPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
             }
           }
         }
