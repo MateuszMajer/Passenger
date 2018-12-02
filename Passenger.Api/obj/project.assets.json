@@ -8657,11 +8657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj",
+      "projectUniqueName": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj",
       "projectName": "Passenger.Api",
-      "projectPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj",
+      "projectPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj",
       "packagesPath": "C:\\Users\\SysAdmin\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Api\\obj\\",
+      "outputPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8680,8 +8680,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj": {
-              "projectPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj"
+            "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj"
             }
           }
         }

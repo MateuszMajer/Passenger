@@ -16,9 +16,9 @@ namespace Passenger.Infrastructure.Repositories
 
         public void Add(User user) => _users.Add(user);
 
-        public User Get(string email) => _users.Single(user => user.Email == email.ToLowerInvariant());
+        public User Get(string email) => _users.SingleOrDefault(user => user.Email == email.ToLowerInvariant());
 
-        public User Get(Guid ID) => _users.Single(user => user.Id == ID);
+        public User Get(Guid ID) => _users.SingleOrDefault(user => user.Id == ID);
 
         public IEnumerable<User> GetAll() => _users;
 
