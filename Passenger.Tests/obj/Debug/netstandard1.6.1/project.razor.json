@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests\\Passenger.Tests.csproj",
+  "ProjectFilePath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\Passenger\\Passenger.Tests\\Passenger.Tests.csproj",
   "TargetFramework": "netstandard1.6.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }
