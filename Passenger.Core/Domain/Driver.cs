@@ -13,10 +13,5 @@ namespace Passenger.Core.Domain
         public Driver()
         {
         }
-
-        public Driver(Guid userid)
-        {
-            UserID=userid;
-        }
     }
 }

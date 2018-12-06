@@ -1,5 +1,7 @@
 using System;
+using System.Threading.Tasks;
 using AutoMapper;
+using Passenger.Core.Domain;
 using Passenger.Infrastructure.DTO;
 
 namespace Passenger.Infrastructure.Services
@@ -15,10 +17,10 @@ namespace Passenger.Infrastructure.Services
             _imapper=imapper;
         }
 
-        public DriverDTO Get(Guid UserID)
+        public DriverDTO GetAsync(Guid UserID)
         {
-            var driver = _idriverservice.Get(UserID);
-            return _imapper.Map<DriverDTO,DriverDTO>(driver);
+            var driver =  _idriverservice.GetAsync(UserID);
+            return driver;
         }
     }
 }

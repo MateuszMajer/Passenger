@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using AutoMapper;
 using Passenger.Core.Domain;
 using Passenger.Core.Repositories;
@@ -16,22 +17,22 @@ namespace Passenger.Infrastructure.Services
             _imapper = imapper;
         }
 
-        public UserDTO Get(string email)
+        public async Task<UserDTO> GetAsync(string email)
         {
-            var user = _iuserrepository.Get(email);
+            var user =await _iuserrepository.GetAsync(email);
             return _imapper.Map<User, UserDTO>(user);
         }
 
-        public void Register(string email, string username, string password)
+        public async Task RegisterAsync(string email, string username, string password)
         {
-            var NewUser = _iuserrepository.Get(email);
+            var NewUser = await _iuserrepository.GetAsync(email);
             if (NewUser != null)
             {
                 throw new Exception($"User with {email} already exists !");
             }
             var salt = Guid.NewGuid().ToString();
             var User = new User(email, password, salt, username);
-            _iuserrepository.Add(User);
+            await _iuserrepository.AddAsync(User);
         }
     }
 }

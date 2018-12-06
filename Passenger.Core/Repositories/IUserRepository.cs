@@ -1,16 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Passenger.Core.Domain;
 
 namespace Passenger.Core.Repositories
 {
     public interface IUserRepository
     {
-         User Get(string email);
-         User Get(Guid ID);
-         void Add(User user);
-         void Remove(User user);  // Guid ID
-         void Update(User user);
-         IEnumerable<User> GetAll();
+         Task<User> GetAsync(string email);
+         Task<User> GetAsync(Guid ID);
+         Task AddAsync(User user);
+         Task RemoveAsync(User user);  // Guid ID
+         Task UpdateAsync(User user);
+         Task<IEnumerable<User>> GetAllAsync();
     }
 }

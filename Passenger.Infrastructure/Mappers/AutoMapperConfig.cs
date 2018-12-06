@@ -10,7 +10,6 @@ namespace Passenger.Infrastructure.Mappers
         => new MapperConfiguration(config =>
         {
             config.CreateMap<User, UserDTO>();
-            config.CreateMap<Driver, DriverDTO>();
         }).CreateMapper();
     }
 }
