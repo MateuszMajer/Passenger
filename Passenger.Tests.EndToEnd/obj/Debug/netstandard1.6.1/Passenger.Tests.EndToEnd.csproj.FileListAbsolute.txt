@@ -11,3 +11,4 @@ C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debu
 C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.csproj.CopyComplete
 C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.dll
 C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.pdb
+C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests.EndToEnd\obj\Debug\netstandard1.6.1\Passenger.Tests.EndToEnd.csprojAssemblyReference.cache
