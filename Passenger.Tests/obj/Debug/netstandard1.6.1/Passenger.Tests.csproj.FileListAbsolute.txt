@@ -12,3 +12,17 @@ C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstan
 C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.csproj.CopyComplete
 C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.dll
 C:\Users\mmajer\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.pdb
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Tests.deps.json
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Tests.dll
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Tests.pdb
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Core.dll
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.dll
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Core.pdb
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\bin\Debug\netstandard1.6.1\Passenger.Infrastructure.pdb
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.csprojAssemblyReference.cache
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.csproj.CoreCompileInputs.cache
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.AssemblyInfoInputs.cache
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.AssemblyInfo.cs
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.csproj.CopyComplete
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.dll
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Tests\obj\Debug\netstandard1.6.1\Passenger.Tests.pdb
