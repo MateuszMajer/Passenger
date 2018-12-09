@@ -2491,10 +2491,7 @@
       },
       "Passenger.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v1.6.1",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
+        "framework": ".NETCoreApp,Version=v2.0",
         "compile": {
           "bin/placeholder/Passenger.Core.dll": {}
         },
@@ -2504,11 +2501,10 @@
       },
       "Passenger.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v1.6.1",
+        "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "AutoMapper": "6.0.2",
           "Microsoft.AspNetCore.TestHost": "1.1.1",
-          "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "10.0.1",
           "Passenger.Core": "1.0.0"
         },
