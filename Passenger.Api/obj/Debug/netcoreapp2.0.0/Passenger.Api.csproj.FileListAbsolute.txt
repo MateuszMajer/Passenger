@@ -30,3 +30,4 @@ C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcore
 C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.csproj.CopyComplete
 C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.dll
 C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Api\obj\Debug\netcoreapp2.0.0\Passenger.Api.pdb
+C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Api\bin\Debug\netcoreapp2.0.0\appsettings.json
