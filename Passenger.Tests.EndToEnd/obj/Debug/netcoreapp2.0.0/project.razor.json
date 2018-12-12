@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\Passenger.Tests.EndToEnd.csproj",
+  "TargetFramework": "netcoreapp2.0.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
