@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
+      "projectUniqueName": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
       "projectName": "Passenger.Core",
-      "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
+      "projectPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
       "packagesPath": "C:\\Users\\mmajer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\obj\\",
+      "outputPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

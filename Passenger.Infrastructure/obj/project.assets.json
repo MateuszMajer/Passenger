@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
       "AutoMapper/6.0.2": {
         "type": "package",
         "dependencies": {
@@ -1676,6 +1689,20 @@
     }
   },
   "libraries": {
+    "Autofac/4.8.1": {
+      "sha512": "GYRLxd2wCzhvee2u1vs3AbUbF4CHDWfD7BCNjD3Vxb4wxQz3HC8bPm9Sj9uOT0gE8a6PC2fx1zufmhLgxK+cZg==",
+      "type": "package",
+      "path": "autofac/4.8.1",
+      "files": [
+        ".signature.p7s",
+        "autofac.4.8.1.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
     "AutoMapper/6.0.2": {
       "sha512": "xlOtHRLCac223sTSZig1wwpDMGlgyYtXK+p9NDBgMi6qTcq1Ra8yBT62uuJnEIwweKjX33U86f0wREK/0xkgKQ==",
       "type": "package",
@@ -5724,6 +5751,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "AutoMapper >= 6.0.2",
+      "Autofac >= 4.8.1",
       "Microsoft.AspNetCore.TestHost >= 1.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 10.0.1",
@@ -5737,11 +5765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
       "projectName": "Passenger.Infrastructure",
-      "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
+      "projectPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mmajer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5760,8 +5788,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
-              "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
+            "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj": {
+              "projectPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Core\\Passenger.Core.csproj"
             }
           }
         }
@@ -5778,6 +5806,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[6.0.2, )"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.8.1, )"
           },
           "Microsoft.AspNetCore.TestHost": {
             "target": "Package",

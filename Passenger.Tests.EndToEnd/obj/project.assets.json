@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "AutoMapper/6.0.2": {
         "type": "package",
         "dependencies": {
@@ -3701,6 +3728,8 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "AutoMapper": "6.0.2",
+          "Autofac": "4.8.1",
+          "Autofac.Extensions.DependencyInjection": "4.0.0",
           "Microsoft.AspNetCore": "1.0.4",
           "Microsoft.AspNetCore.Mvc": "1.0.3",
           "Microsoft.Extensions.Logging.Debug": "1.0.2",
@@ -3729,6 +3758,7 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "AutoMapper": "6.0.2",
+          "Autofac": "4.8.1",
           "Microsoft.AspNetCore.TestHost": "1.1.1",
           "Newtonsoft.Json": "10.0.1",
           "Passenger.Core": "1.0.0"
@@ -3743,6 +3773,32 @@
     }
   },
   "libraries": {
+    "Autofac/4.8.1": {
+      "sha512": "GYRLxd2wCzhvee2u1vs3AbUbF4CHDWfD7BCNjD3Vxb4wxQz3HC8bPm9Sj9uOT0gE8a6PC2fx1zufmhLgxK+cZg==",
+      "type": "package",
+      "path": "autofac/4.8.1",
+      "files": [
+        ".signature.p7s",
+        "autofac.4.8.1.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/4.0.0": {
+      "sha512": "kmOwfSmesgO1yS+zm3joN54+SxTxGY3G5GyVx7W+vsstXA7DF+43HCbKbpsnXMjfaVQ2p0LKzk7TSF8uSlz3GA==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/4.0.0",
+      "files": [
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.4.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "AutoMapper/6.0.2": {
       "sha512": "xlOtHRLCac223sTSZig1wwpDMGlgyYtXK+p9NDBgMi6qTcq1Ra8yBT62uuJnEIwweKjX33U86f0wREK/0xkgKQ==",
       "type": "package",
@@ -10243,6 +10299,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Autofac >= 4.8.1",
       "FluentAssertions >= 4.19.0",
       "Microsoft.AspNetCore.TestHost >= 1.1.1",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
@@ -10262,11 +10319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\Passenger.Tests.EndToEnd.csproj",
+      "projectUniqueName": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\Passenger.Tests.EndToEnd.csproj",
       "projectName": "Passenger.Tests.EndToEnd",
-      "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\Passenger.Tests.EndToEnd.csproj",
+      "projectPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\Passenger.Tests.EndToEnd.csproj",
       "packagesPath": "C:\\Users\\mmajer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\obj\\",
+      "outputPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Tests.EndToEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10285,11 +10342,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj": {
-              "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj"
+            "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj": {
+              "projectPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Api\\Passenger.Api.csproj"
             },
-            "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj"
+            "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj": {
+              "projectPath": "c:\\Users\\mmajer\\VisualStudioProjects\\Passenger\\Passenger.Infrastructure\\Passenger.Infrastructure.csproj"
             }
           }
         }
@@ -10303,6 +10360,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.8.1, )"
+          },
           "FluentAssertions": {
             "target": "Package",
             "version": "[4.19.0, )"
