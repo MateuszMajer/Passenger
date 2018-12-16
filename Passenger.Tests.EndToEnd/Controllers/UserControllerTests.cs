@@ -13,18 +13,10 @@ using Xunit;
 
 namespace Passenger.Tests.EndToEnd.Controllers
 {
-    public class UserControllerTests
+    public class UserControllerTests : ControllerTestBase
     {
-        protected readonly TestServer Server;
-        protected readonly HttpClient Client;
-
-        public UserControllerTests()
-        {
-            Server = new TestServer(new WebHostBuilder().UseStartup<Startup>());
-            Client = Server.CreateClient();
-        }
         [Fact]
-        public async Task given_valid_user_email_should_exsist()
+        private async Task given_valid_user_email_should_exsist()
         {
             var email = "user1@gmail.com";
             var response = await Client.GetAsync($"user/{email}");
@@ -35,7 +27,7 @@ namespace Passenger.Tests.EndToEnd.Controllers
         }
 
         [Fact]
-        public async Task given_invalid_user_email_should_not_exsist()
+        private async Task given_invalid_user_email_should_not_exsist()
         {
             var email = "usedr1@gmail.com";
             var response = await Client.GetAsync($"user/{email}");
@@ -43,7 +35,7 @@ namespace Passenger.Tests.EndToEnd.Controllers
         }
 
         [Fact]
-        public async Task given_uniqe_user_email_should_be_created()
+        private async Task given_uniqe_user_email_should_be_created()
         {
             var user = new CreateUser
             {

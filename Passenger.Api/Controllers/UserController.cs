@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Passenger.Infrastructure.Commands;
 using Passenger.Infrastructure.Commands.User;
 using Passenger.Infrastructure.DTO;
 using Passenger.Infrastructure.Services;
 
 namespace Passenger.Api.Controllers
 {
-    [Route("[controller]")]
-    public class UserController : Controller
+    public class UserController : ApiControllerBase
     {
         private readonly IUserService _iuserservice;
-        public UserController(IUserService iuserservice)
+        public UserController(IUserService iuserservice, ICommandDispatcher commandDispatcher) : base(commandDispatcher)
         {
             _iuserservice = iuserservice;
         }
-
 
         [HttpGet("{email}")]
         public async Task<IActionResult> Get(string email)
@@ -31,11 +30,10 @@ namespace Passenger.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]CreateUser request)
+        public async Task<IActionResult> Post([FromBody]CreateUser command)
         {
-            await _iuserservice.RegisterAsync(request.Email, request.UserName, request.Password);
-            return Created($"user/{request.Email}", "");
+            await Commanddispatcher.DispatchAsync(command);
+            return Created($"user/{command.Email}", "");
         }
-
     }
 }

@@ -3,6 +3,6 @@ $solution="Passenger"
 
  foreach ($project in $projects) {
    cd $solution"."$project
-   dotnet restore
+   dotnet test
    cd..
  }

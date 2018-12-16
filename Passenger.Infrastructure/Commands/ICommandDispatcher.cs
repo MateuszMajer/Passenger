@@ -4,6 +4,6 @@ namespace Passenger.Infrastructure.Commands
 {
     public interface ICommandDispatcher
     {
-         Task DisptachAsync<T>() where T: ICommand;
+        Task DispatchAsync<T>(T command) where T : ICommand;
     }
 }
