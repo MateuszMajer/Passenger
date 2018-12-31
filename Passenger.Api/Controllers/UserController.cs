@@ -7,13 +7,14 @@ using Passenger.Infrastructure.Commands;
 using Passenger.Infrastructure.Commands.User;
 using Passenger.Infrastructure.DTO;
 using Passenger.Infrastructure.Services;
+using Passenger.Infrastructure.Settings;
 
 namespace Passenger.Api.Controllers
 {
     public class UserController : ApiControllerBase
     {
         private readonly IUserService _iuserservice;
-        public UserController(IUserService iuserservice, ICommandDispatcher commandDispatcher) : base(commandDispatcher)
+        public UserController(IUserService iuserservice, ICommandDispatcher commandDispatcher, GeneralSettings settings) : base(commandDispatcher)
         {
             _iuserservice = iuserservice;
         }

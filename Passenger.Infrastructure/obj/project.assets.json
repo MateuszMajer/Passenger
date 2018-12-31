@@ -254,6 +254,20 @@
           "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.1",
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel.TypeConverter": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.EnvironmentVariables/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -1926,6 +1940,18 @@
         "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "microsoft.extensions.configuration.abstractions.1.1.1.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+      "sha512": "y/2mYL13Rv/eWa0CbHnWxUI0WN8C1AROLA/ahudTTB2vb2X75tlXMCOQOQByf4FqV5zf/O/JJChQLRv7p1bHow==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/1.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.1.1.1.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/1.1.1": {
@@ -5753,6 +5779,8 @@
       "AutoMapper >= 6.0.2",
       "Autofac >= 4.8.1",
       "Microsoft.AspNetCore.TestHost >= 1.1.1",
+      "Microsoft.Extensions.Configuration >= 1.1.1",
+      "Microsoft.Extensions.Configuration.Binder >= 1.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 10.0.1",
       "Passenger.Core >= 1.0.0"
@@ -5812,6 +5840,14 @@
             "version": "[4.8.1, )"
           },
           "Microsoft.AspNetCore.TestHost": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
             "target": "Package",
             "version": "[1.1.1, )"
           },

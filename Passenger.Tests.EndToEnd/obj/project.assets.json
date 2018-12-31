@@ -996,11 +996,12 @@
           "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/1.0.2": {
+      "Microsoft.Extensions.Configuration.Binder/1.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.2",
-          "System.ComponentModel.TypeConverter": "4.1.0"
+          "Microsoft.Extensions.Configuration": "1.1.1",
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel.TypeConverter": "4.3.0"
         },
         "compile": {
           "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -3760,6 +3761,8 @@
           "AutoMapper": "6.0.2",
           "Autofac": "4.8.1",
           "Microsoft.AspNetCore.TestHost": "1.1.1",
+          "Microsoft.Extensions.Configuration": "1.1.1",
+          "Microsoft.Extensions.Configuration.Binder": "1.1.1",
           "Newtonsoft.Json": "10.0.1",
           "Passenger.Core": "1.0.0"
         },
@@ -4676,15 +4679,15 @@
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Binder/1.0.2": {
-      "sha512": "tXvwPzYpeOwojjSd40VS99Weh89l8uv+GULsycu97t3PtibyB6gj3tWLql5XATSTNxmb1oFTISzqg/D6mWkm0g==",
+    "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+      "sha512": "y/2mYL13Rv/eWa0CbHnWxUI0WN8C1AROLA/ahudTTB2vb2X75tlXMCOQOQByf4FqV5zf/O/JJChQLRv7p1bHow==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.binder/1.0.2",
+      "path": "microsoft.extensions.configuration.binder/1.1.1",
       "files": [
         ".signature.p7s",
         "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll",
         "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.xml",
-        "microsoft.extensions.configuration.binder.1.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.1.1.1.nupkg.sha512",
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "211b10b7af676cba6f01cc6d8b0ba6bb58d2550a"
+    "signature": "e87a2b7d780ccb9e0236408f9a50d3b2e3c0edf4"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,8 @@
           "AutoMapper": "6.0.2",
           "Autofac": "4.8.1",
           "Microsoft.AspNetCore.TestHost": "1.1.1",
+          "Microsoft.Extensions.Configuration": "1.1.1",
+          "Microsoft.Extensions.Configuration.Binder": "1.1.1",
           "Newtonsoft.Json": "10.0.1",
           "Passenger.Core": "1.0.0"
         },
@@ -233,6 +235,18 @@
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.30217"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.1",
+          "System.ComponentModel.TypeConverter": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {
             "assemblyVersion": "1.1.1.0",
             "fileVersion": "1.1.1.30217"
           }
@@ -1149,6 +1163,13 @@
       "sha512": "sha512-V3j2h1ffprfgi9IfT2a+xepljChPlrvORFMIcgumCG1XBu5gYXNLRJHmIS3yGWZD+o6PRKnb4kWVRLYRXbwalA==",
       "path": "microsoft.extensions.configuration.abstractions/1.1.1",
       "hashPath": "microsoft.extensions.configuration.abstractions.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y/2mYL13Rv/eWa0CbHnWxUI0WN8C1AROLA/ahudTTB2vb2X75tlXMCOQOQByf4FqV5zf/O/JJChQLRv7p1bHow==",
+      "path": "microsoft.extensions.configuration.binder/1.1.1",
+      "hashPath": "microsoft.extensions.configuration.binder.1.1.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/1.1.1": {
       "type": "package",

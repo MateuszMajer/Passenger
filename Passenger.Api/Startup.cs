@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Passenger.Core.Repositories;
+using Passenger.Infrastructure.IoC;
 using Passenger.Infrastructure.IoC.Modules;
 using Passenger.Infrastructure.Mappers;
 using Passenger.Infrastructure.Repositories;
@@ -35,16 +36,11 @@ namespace Passenger.Api
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IUserRepository, InMemoryUserRepository>();
-            services.AddSingleton(AutoMapperConfig.Initialize());
             services.AddMvc();
-
             var builder = new ContainerBuilder();
             builder.Populate(services);
-            builder.RegisterModule<CommandModule>();
+            builder.RegisterModule(new ContainerModule(Configuration));
             ApplicationContainer = builder.Build();
-
             return new AutofacServiceProvider(ApplicationContainer);
         }
 
