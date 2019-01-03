@@ -11,15 +11,17 @@ namespace Passenger.Infrastructure.Services
     {
         private readonly IUserRepository _iuserrepository;
         private readonly IMapper _imapper;
-        public UserService(IUserRepository userRepository, IMapper imapper)
+        private readonly IEncrypter _iencrypter;
+        public UserService(IUserRepository userRepository, IEncrypter encrypter, IMapper mapper)
         {
             _iuserrepository = userRepository;
-            _imapper = imapper;
+            _imapper = mapper;
+            _iencrypter = encrypter;
         }
 
         public async Task<UserDTO> GetAsync(string email)
         {
-            var user =await _iuserrepository.GetAsync(email);
+            var user = await _iuserrepository.GetAsync(email);
             return _imapper.Map<User, UserDTO>(user);
         }
 
