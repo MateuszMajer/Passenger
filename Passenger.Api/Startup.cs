@@ -49,7 +49,6 @@ namespace Passenger.Api
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
             app.UseMvc();
             lifetime.ApplicationStopped.Register(() => ApplicationContainer.Dispose());
         }

@@ -22,3 +22,15 @@ C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\De
 C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.csproj.CopyComplete
 C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.dll
 C:\Users\SysAdmin\VisualStudioProjects\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.pdb
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\bin\Debug\netcoreapp2.0.0\Passenger.Infrastructure.deps.json
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\bin\Debug\netcoreapp2.0.0\Passenger.Infrastructure.dll
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\bin\Debug\netcoreapp2.0.0\Passenger.Infrastructure.pdb
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\bin\Debug\netcoreapp2.0.0\Passenger.Core.dll
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\bin\Debug\netcoreapp2.0.0\Passenger.Core.pdb
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.csprojAssemblyReference.cache
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.AssemblyInfo.cs
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.csproj.CopyComplete
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.dll
+C:\Users\mmajer\Desktop\Passenger\Passenger.Infrastructure\obj\Debug\netcoreapp2.0.0\Passenger.Infrastructure.pdb

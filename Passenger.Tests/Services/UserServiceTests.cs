@@ -10,7 +10,7 @@ using Xunit;
 namespace Passenger.Tests.Services
 {
     public class UserServiceTests
-    {
+    {/*/
         [Fact]
         public async Task register_async_should_invoke_add_async_on_repository()
         {
@@ -29,5 +29,5 @@ namespace Passenger.Tests.Services
             var user =await userService.GetAsync("user1@gmail.com");
             user.Should().BeNull();
         }
-    }
+   */ }
 }
