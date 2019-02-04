@@ -25,3 +25,12 @@ C:\Users\mmajer\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passe
 C:\Users\mmajer\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.AssemblyInfo.cs
 C:\Users\mmajer\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.dll
 C:\Users\mmajer\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.pdb
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\bin\Debug\netcoreapp2.0.0\Passenger.Core.deps.json
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\bin\Debug\netcoreapp2.0.0\Passenger.Core.dll
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\bin\Debug\netcoreapp2.0.0\Passenger.Core.pdb
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.csprojAssemblyReference.cache
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.csproj.CoreCompileInputs.cache
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.AssemblyInfoInputs.cache
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.AssemblyInfo.cs
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.dll
+C:\Users\SysAdmin\Desktop\Passenger\Passenger.Core\obj\Debug\netcoreapp2.0.0\Passenger.Core.pdb
